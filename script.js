@@ -15,7 +15,7 @@ let submissions = [
     };
     array.push(addSubmission);
   }
-  addSubmission(submissions, "Bill", 100, 2020 - 01 - 01);
+  addSubmission(submissions, "Bill", 100, 2020 - 01 - 01); //make sure you put the date in quotes
   console.log(submissions);
   
   //* delete submission by name //*
